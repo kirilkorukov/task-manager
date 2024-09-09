@@ -1,0 +1,46 @@
+.filter-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+  
+.filter-label {
+    font-size: 16px;
+    color: #2e3a59;
+    padding-right: 25px;
+}
+  
+.filter-button {
+    border: none;
+    width: 140px;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-right: 15px;
+    padding: 12px;
+    background-color: #e5eafc;
+}
+  
+.filter-button.active {
+    color: #fff;
+    background-color: #8d31f4;
+    background-image: linear-gradient(#8d31f4, #4645f8);
+}
+  
+.filter-button:hover {
+    transform: scale(1.05);
+}
+  
+.filter-button.active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+  
+.filter-button:focus {
+    outline: none;
+}

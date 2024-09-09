@@ -1,0 +1,23 @@
+.task {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.task-text {
+    flex-grow: 1;
+    padding-right: 25px;
+}
+  
+.task-text a {
+    color: #333;
+    text-decoration: none;
+}
+
+.secondary-button {
+    margin-left: 20px;
+    background-color: #2084b8 !important;
+}
